@@ -36,10 +36,9 @@ public:
         
         return newHead;
     }
-    
-    // Main function using iterative solution by default
+
     ListNode* reverseList(ListNode* head) {
         return reverseListIterative(head);  // Fixed function name
-        // Alternatively: return reverseListRecursive(head);
+       
     }
 };
